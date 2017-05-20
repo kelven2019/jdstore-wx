@@ -17,7 +17,9 @@ Rails.application.routes.draw do
         patch :move_down
       end
     end
+    resources :categories
   end
+  resources :categories
 
   resources :products do
     collection do
